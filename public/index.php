@@ -1,5 +1,4 @@
 <?php
-
 declare(strict_types=1);
 
 /*
@@ -8,6 +7,7 @@ declare(strict_types=1);
  * License: https://github.com/quidphp/assert/blob/master/LICENSE
  */
 
+// index file for booting the testsuite via an HTTP request
 (function () {
     http_response_code(500);
     $config = require dirname(__DIR__).'/env.php';
