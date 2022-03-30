@@ -6,8 +6,8 @@
 # https://github.com/Sequel-Ace/Sequel-Ace
 #
 # Host: 127.0.0.1 (MySQL 5.5.5-10.7.3-MariaDB)
-# Database: quid5
-# Generation Time: 2022-03-29 19:09:14 +0000
+# Database: quidphpAssert
+# Generation Time: 2022-03-30 17:06:41 +0000
 # ************************************************************
 
 
@@ -637,11 +637,11 @@ LOCK TABLES `user` WRITE;
 
 INSERT INTO `user` (`id`, `active`, `role`, `username`, `password`, `passwordReset`, `email`, `timezone`, `dateLogin`, `userAdd`, `dateAdd`, `userModify`, `dateModify`)
 VALUES
-	(1,1,'1','nobody','$2y$11$8nFxo4CJfdzkT3ljRTrnAeYVsRIWDNlb/UDh.yRyuA9DN0GqZzMfe',NULL,'nobody@quid.com',NULL,1518037067,1,1384403273,1,1384403273),
-	(2,1,'80','admin','$2y$11$8nFxo4CJfdzkT3ljRTrnAeYVsRIWDNlb/UDh.yRyuA9DN0GqZzMfe',NULL,'administrator@quid.com',NULL,1518037067,2,1384403273,2,1384403273),
-	(3,1,'20','user','$2y$04$cuuc4e5Ek8d/0Q3GD4PM3.frGAWQTBsByvVn1m2aYut9A/spoGSGu',NULL,'user@quid.com',NULL,1648579406,3,1384403273,3,1648579406),
-	(4,0,'20','inactive','$2y$11$8nFxo4CJfdzkT3ljRTrnAeYVsRIWDNlb/UDh.yRyuA9DN0GqZzMfe',NULL,'inactive@quid.com',NULL,1519241542,4,1384403273,4,1519241545),
-	(5,0,'90','cli','$2y$11$8nFxo4CJfdzkT3ljRTrnAeYVsRIWDNlb/UDh.yRyuA9DN0GqZzMfe',NULL,'cli@quid.com',NULL,1519241542,5,1384403273,5,1519241545);
+	(1,1,'1','nobody','$2y$11$8nFxo4CJfdzkT3ljRTrnAeYVsRIWDNlb/UDh.yRyuA9DN0GqZzMfe',NULL,'nobody@quidphp.com',NULL,1518037067,1,1384403273,1,1384403273),
+	(2,1,'80','admin','$2y$11$8nFxo4CJfdzkT3ljRTrnAeYVsRIWDNlb/UDh.yRyuA9DN0GqZzMfe',NULL,'administrator@quidphp.com',NULL,1518037067,2,1384403273,2,1384403273),
+	(3,1,'20','user','$2y$04$NV7Piw1sXIEP0Mz/bpjkyebZKRBusiXui/R/KFZOFMPshJgCoEDMe',NULL,'user@quidphp.com',NULL,1648659725,3,1384403273,3,1648659725),
+	(4,0,'20','inactive','$2y$11$8nFxo4CJfdzkT3ljRTrnAeYVsRIWDNlb/UDh.yRyuA9DN0GqZzMfe',NULL,'inactive@quidphp.com',NULL,1519241542,4,1384403273,4,1519241545),
+	(5,0,'90','cli','$2y$11$8nFxo4CJfdzkT3ljRTrnAeYVsRIWDNlb/UDh.yRyuA9DN0GqZzMfe',NULL,'cli@quidphp.com',NULL,1519241542,5,1384403273,5,1519241545);
 
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
