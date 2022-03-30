@@ -9,7 +9,7 @@ declare(strict_types=1);
  */
 
 return [
-    'cliEnvType'=> 'dev/cms',
+    'cliEnvType'=> 'dev/assert',
 
     'schemeHost'=> [
         'dev/assert' => 'https://assert.test',
@@ -25,6 +25,18 @@ return [
         'vendor' => __DIR__.'/vendor',
         'boot'   => '[vendor]/quidphp/site/test/Suite/BootSite.php',
     ],
+
+    'assert'=>[
+        'target'=>true,
+        'assertJs'=>true,
+        'overviewServer'=>true,
+        'overviewLine'=>false,
+        'overviewAutoload'=>false
+    ],
+
+    'service'=>[
+        'polyfill'=>[Quid\Lemur\Service\Polyfill::class,['mode'=>'ie11']]],
+
 
     '@dev'=> [
         'db'=> ['mysql:host=localhost;port=3306;dbname=projectTest;user=root', ''], ],
