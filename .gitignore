@@ -1,6 +1,11 @@
-manifest/cache/
-manifest/logs/
-manifest/tmp/
-symphony/
-workspace/uploads/
-install-log.txt
+.DS_Store
+._*,
+_quid.txt
+Thumbs.db
+/composer.lock
+/vendor/*
+/storage/*
+/public/*
+/env.php
+!/public/index.php
+!/public/.htaccess
