@@ -16,14 +16,14 @@ return [
         'prod/assert'=> 'https://assert.com',
     ],
 
-    'path'=> [
-        'public' => __DIR__.'/public',
-        'src'    => __DIR__.'/src',
-        'js'     => __DIR__.'/js',
-        'css'    => __DIR__.'/css',
-        'storage'=> __DIR__.'/storage',
-        'vendor' => __DIR__.'/vendor',
-        'boot'   => '[vendor]/quidphp/site/test/Suite/BootSite.php',
+    'path'=>[
+        'public'=>__DIR__.'/public',
+        'src'=>__DIR__.'/src',
+        'js'=>__DIR__.'/js',
+        'css'=>__DIR__.'/css',
+        'storage'=>__DIR__.'/storage',
+        'vendor'=>__DIR__.'/vendor',
+        'boot'=>'[vendor]/quidphp/site/test/Suite/BootSite.php'
     ],
 
     'assert'=>[
@@ -37,10 +37,9 @@ return [
     'service'=>[
         'polyfill'=>[Quid\Lemur\Service\Polyfill::class,['mode'=>'ie11']]],
 
+    '@dev'=>[
+        'db'=>['mysql:host=localhost;port=3306;dbname=projectTest;user=root', '']],
 
-    '@dev'=> [
-        'db'=> ['mysql:host=localhost;port=3306;dbname=projectTest;user=root', ''], ],
-
-    '@prod'=> [
-        'db'=> ['mysql:host=localhost;port=3306;dbname=projectTest;user=root', ''], ],
+    '@prod'=>[
+        'db'=>['mysql:host=localhost;port=3306;dbname=projectTest;user=root', '']],
 ];
