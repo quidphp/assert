@@ -44,7 +44,7 @@ $ composer create-project quidphp/assert --prefer-dist
     - *memory_limit* must be at least 128MB
 - Mysql (>= 8.0) or MariaDB (>= 10.5) database
 - Apache or Nginx server
-    - Running on MacOs, Windows or Linux
+    - Running on MacOs, Linux or Windows
 - Minimal browser: Internet Explorer 11
 
 ## Dependency
@@ -96,4 +96,5 @@ Open the main directory in the Command Line. Write **php quid** or **php quid :p
 ## Known issues
 - On some setup, you may need to add your domain to the system hosts file. If not, some assertions involving curl may fail.
 - The testsuite fails on Windows when using the Command Prompt.
+- On Windows, there are some problems related to creating symlinks.
 - On Windows, you will need to add *lower_case_table_names* = 2 in your database configuration file (my.cnf). The table and column names need to be stored in their natural case.
