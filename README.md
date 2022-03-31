@@ -6,7 +6,7 @@
 [![Code Size](https://img.shields.io/github/languages/code-size/quidphp/assert)](https://github.com/quidphp/assert)
 
 ## About
-**QuidPHP/Asert** repository contains an application to run the QuidPHP testsuite. The test suite contains about 15000 assertions which will thoroughly test your PHP setup. It also comes with some Javascript tests.
+**QuidPHP/Asert** repository contains an application to run the testsuite. This testsuite contains roughly 15000 assertions which will thoroughly test your PHP setup. It also comes with some Javascript tests.
 
 ## License
 **QuidPHP/Assert** is available as an open-source software under the [MIT license](LICENSE).
