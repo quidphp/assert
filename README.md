@@ -6,7 +6,7 @@
 [![Code Size](https://img.shields.io/github/languages/code-size/quidphp/assert)](https://github.com/quidphp/assert)
 
 ## About
-This repository contains an application to run the QuidPHP testsuite.
+**QuidPHP/Asert** repository contains an application to run the QuidPHP testsuite. The test suite contains about 15000 assertions which will thoroughly test your PHP setup. It also comes with some Javascript tests.
 
 ## License
 **QuidPHP/Assert** is available as an open-source software under the [MIT license](LICENSE).
@@ -84,8 +84,8 @@ Open the main directory in the Command Line. Write **php quid /:dev/assert** or 
 - On Windows, you will need to add *lower_case_table_names* = 2 in your database configuration file (my.cnf). The table and column names need to be stored in their natural case.
 
 ## Overview
-**QuidPHP/Project** contains 24 files. Here is an overview:
-- [.gitignore](.gitignore) - Standard .gitignore file for the project
+**QuidPHP/Assert** contains 9 files. Here is an overview:
+- [.gitignore](.gitignore) - Standard .gitignore file for the testsuite
 - [composer.json](composer.json) - File declaring all Composer PHP dependencies
 - [env-default.php](env-default.php) - Declare environment data for the testsuite, copy this file and rename to env.php
 - [LICENSE](LICENSE) - MIT License file for the repository
