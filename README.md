@@ -6,7 +6,7 @@
 [![Code Size](https://img.shields.io/github/languages/code-size/quidphp/assert)](https://github.com/quidphp/assert)
 
 ## About
-**QuidPHP/Asert** repository contains an application to run the testsuite. This testsuite contains roughly 15000 assertions which will thoroughly test your PHP setup. It also comes with some Javascript tests.
+**QuidPHP/Assert** repository contains an application to run the testsuite. This testsuite contains roughly 15000 assertions which will thoroughly test your PHP setup. It also comes with some Javascript tests.
 
 ## License
 **QuidPHP/Assert** is available as an open-source software under the [MIT license](LICENSE).
@@ -48,7 +48,7 @@ $ composer create-project quidphp/assert --prefer-dist
 - Minimal browser: Internet Explorer 11
 
 ## Dependency
-**QuidPHP/Site** has the following dependencies:
+**QuidPHP/Assert** has the following dependencies:
 - [quidphp/base](https://github.com/quidphp/base) - Quid\Base - PHP library that provides a set of low-level static methods
 - [quidphp/main](https://github.com/quidphp/main) - Quid\Main - PHP library that provides a set of base objects and collections 
 - [quidphp/orm](https://github.com/quidphp/orm) - Quid\Orm - PHP library that provides database access and a comprehensive ORM
