@@ -94,6 +94,6 @@ Open the main directory in the Command Line. Write **php quid** or **php quid :p
 - [public/index.php](public/index.php) - Index file for booting the testsuite via an HTTP request
 
 ## Known issues
-- The testsuite fails on Windows when using the Command Prompt.
 - On some setup, you may need to add your domain to the system hosts file. If not, some assertions involving curl may fail.
+- The testsuite fails on Windows when using the Command Prompt.
 - On Windows, you will need to add *lower_case_table_names* = 2 in your database configuration file (my.cnf). The table and column names need to be stored in their natural case.
