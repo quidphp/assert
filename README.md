@@ -79,12 +79,7 @@ There are two ways to boot the testsuite.
 From your web browser, enter the URL to the [public/index.php](public/index.php) entry file.
 
 ### CLI
-Open the main directory in the Command Line. Write **php quid /:dev/assert** or **php quid /:prod/assert** within the Command Line Interface.
-
-## Known issues
-- The testsuite fails on Windows when using the Command Prompt.
-- On some setup, you may need to add your domain to the system hosts file. If not, some assertions involving curl may fail.
-- On Windows, you will need to add *lower_case_table_names* = 2 in your database configuration file (my.cnf). The table and column names need to be stored in their natural case.
+Open the main directory in the Command Line. Write **php quid** or **php quid :prod/assert** within the Command Line Interface.
 
 ## Overview
 **QuidPHP/Assert** contains 9 files. Here is an overview:
@@ -97,3 +92,8 @@ Open the main directory in the Command Line. Write **php quid /:dev/assert** or 
 - [db.sql](db.sql) - Sql database required for the QuidPHP testsuite
 - [public/.htaccess](public/.htaccess) - Simple apache directive file, requires mod_rewrite
 - [public/index.php](public/index.php) - Index file for booting the testsuite via an HTTP request
+
+## Known issues
+- The testsuite fails on Windows when using the Command Prompt.
+- On some setup, you may need to add your domain to the system hosts file. If not, some assertions involving curl may fail.
+- On Windows, you will need to add *lower_case_table_names* = 2 in your database configuration file (my.cnf). The table and column names need to be stored in their natural case.
