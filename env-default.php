@@ -34,9 +34,6 @@ return [
         'overviewAutoload'=>false
     ],
 
-    'service'=>[
-        'polyfill'=>[Quid\Lemur\Service\Polyfill::class,['mode'=>'ie11']]],
-
     '@dev'=>[
         'db'=>['mysql:host=localhost;port=3306;dbname=projectTest;user=root', '']],
 
