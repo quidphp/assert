@@ -63,14 +63,15 @@ Once the installation is complete, simply follow these steps:
 5. Update the scheme hosts within the **env.php** file to reflect your server configuration.
 6. Update the database parameters within the **env.php** file.
 
-## Booting
-There are two ways to boot the testsuite.
-
-### HTTP
+## Booting via HTTP
 From your web browser, enter the URL to the [public/index.php](public/index.php) entry file.
 
-### CLI
-Write **php quid** or **php quid :prod/assert** within the Command Line Interface.
+## Booting via CLI
+Open the project folder in the Command Line. You may now submit a command in the following format: 
+``` bash
+php quid
+php quid :prod/assert
+```
 
 ## Overview
 **QuidPHP/Assert** contains 9 files. Here is an overview:
