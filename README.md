@@ -21,7 +21,7 @@ $ composer create-project quidphp/assert --prefer-dist
 ```
 
 ## Requirement
-**QuidPHP/Lemur** requires the following:
+**QuidPHP/Assert** requires the following:
 - Apache or Nginx server (running on MacOs or Linux environment). 
     - Works in Windows environment but there are **known issues**.
 - PHP 8.1 with these extensions:
