@@ -70,7 +70,7 @@ There are two ways to boot the testsuite.
 From your web browser, enter the URL to the [public/index.php](public/index.php) entry file.
 
 ### CLI
-Open the main directory in the Command Line. Write **php quid** or **php quid :prod/assert** within the Command Line Interface.
+Write **php quid** or **php quid :prod/assert** within the Command Line Interface.
 
 ## Overview
 **QuidPHP/Assert** contains 9 files. Here is an overview:
