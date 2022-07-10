@@ -24,22 +24,27 @@ $ composer create-project quidphp/assert --prefer-dist
 **QuidPHP/Assert** requires the following:
 - Apache or Nginx server (running on MacOs or Linux environment). 
     - Works in Windows environment but there are **known issues**.
-- PHP 8.1 with these extensions:
-    - ctype
-    - curl
-    - date
-    - fileinfo
-    - gd
-    - iconv
-    - json
-    - mbstring
-    - pcre
-    - openssl
-    - session
-    - SimpleXML
-    - zip
-    - PDO
-    - pdo_mysql
+- PHP 8.1 
+    - with these extensions:
+        - ctype
+        - curl
+        - date
+        - fileinfo
+        - gd
+        - iconv
+        - json
+        - mbstring
+        - pcre
+        - openssl
+        - session
+        - SimpleXML
+        - zip
+        - PDO
+        - pdo_mysql
+    - and these PHP INI directives
+        - *post_max_size* must be at least 1MB
+        - *post_max_size* must be larger than *upload_max_filesize*
+        - *memory_limit* must be at least 128MB
 - Mysql (>= 8.0) or MariaDB (>= 10.4) database
 - Any modern browser (not Internet Explorer)
 
